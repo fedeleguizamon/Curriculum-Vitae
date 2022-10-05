@@ -1,16 +1,19 @@
 body{
     background-color: #f5f5dc;
     font-family: arial;
+    flex-wrap: wrap;
 }
 div{
     background-color: #ffffff;
     border: 1px solid #000000;
     padding: 12px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+    min-width: 250px;
 }
 fieldset{
-    margin-bottom: 12px;
+    margin: 20px;
+    display: flex;
 }
 legend{
     background-color: #deb887;
@@ -26,4 +29,18 @@ nav ul li{
 nav{
     text-align: center;
     font-size: large;
+}
+.contactflex{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+footer{
+    background-color: rgb(71, 70, 70);
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    top: 87%;
+    width: 100%;
 }
