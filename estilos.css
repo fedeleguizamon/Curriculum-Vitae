@@ -2,6 +2,9 @@ body{
     background-color: #f5f5dc;
     font-family: arial;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 div{
     background-color: #ffffff;
@@ -40,7 +43,12 @@ footer{
     color: #ffffff;
     text-align: center;
     padding: 0px;
-    position: absolute;
-    top: 87%;
-    width: 100%;
+    margin-top: auto;
 }
+img{
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 20px;
+}
+h1{text-align: center;}
